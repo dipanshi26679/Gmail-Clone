@@ -1,0 +1,57 @@
+body {
+    background-color: #F6F8FC;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 250px auto 200px;
+    height: 50px;
+    align-items: center;
+    padding: 10px; 
+    background-color: #F6F8FC; 
+    /* margin-left: px; */
+
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+
+}
+.header_left img {
+    margin-left: 10px;
+}
+
+.header_middle{
+    display: flex;
+    flex: 0.7;
+}
+
+.search_mail{
+    background-color: #EAF1FB;
+    border-radius: 30px ;
+    display: flex;
+    flex: 0.9;
+    height: 45px;
+} 
+
+.header_middle input{
+    border: 0;
+    background: transparent;
+    outline: 0;
+    flex: 1;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.header_right {
+    display: flex;
+}
+
+.header_right .MuiAvatar-root {
+    height: 33px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 25px;
+    width: 33px;
+}

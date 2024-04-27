@@ -1,0 +1,108 @@
+.compose{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background-color: #fff;
+    overflow: hidden;
+    min-width: 500px;
+    border-radius: 10px 10px 0px 0px ;
+    box-shadow: 0px 0px 8px rgb(51 51 51/59%);
+}
+
+.compose_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    background-color: #F2F6FC;
+}
+.compose_header svg{
+    font-size: 17px;
+}
+
+.compose_header_left span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.compose_header_right :hover{
+    color: black;
+}
+
+.compose_body{
+    display: flex;
+
+}
+
+.Compose_body_form{
+    display: flex;
+    flex-direction:column ;
+}
+
+.Compose_body_form input,textarea {
+    width: 470px;
+    padding: 0px  10px;
+    height: 40px;
+
+    border:none ;
+    outline: none;
+    border-bottom: 1px solid #E2E5E7;
+}
+
+.Compose_body_form textarea{
+    height: auto;
+    border: none;
+}
+
+.compose_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+
+.compose_footer_left{
+   display: flex;
+   align-items: center;
+} 
+
+.compose_footer_left button {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #0B57D0;
+    color: white;
+    letter-spacing: 1px;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+.compose_footer_bottom svg{
+    font-size: 20px;
+} 
+
+.compose_footer_bottom  :hover{
+    color: black;
+}
+
+.compose_footer_right  :hover{
+    color: black;
+}
+
+
+
+.compose_footer_left :hover{
+    cursor: pointer;
+    background-color: #1B61D1;
+}
+
+.compose_footer_left button svg {
+    border-left: 1px solid white;
+    margin-left: 10px;
+}
+
